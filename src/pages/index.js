@@ -105,7 +105,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-3/6 flex flex-col pt-10 justify-center text-center content-center items-center">
-                <a href="#">
+                <a href="https://discord.gg/yRcMHhyhKT" target="_blank">
                   <p className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5">
                     <FaDiscord className="mr-2" />Discord
                   </p>

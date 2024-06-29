@@ -24,7 +24,7 @@ const Join = () => {
                                 </p>
                             </div>
                             <div className="flex-none flex flex-wrap bottom-0 items-center content-cneter justify-center lg:ml-20 md:ml-10 mt-6">
-                                <a href="#">
+                                <a href="https://discord.gg/yRcMHhyhKT" target="_blank">
                                     <div className="flex md:h-14 h-12 w-auto px-4 mx-2 max-w-44 min-w-36 mt-3 text-white text-lg text-center border border-white relative rounded-full content-center justify-center items-center cursor-pointer transition duration-300 hover:-translate-y-0.5">
                                         <FaDiscord className="mr-2" /> Discord
                                     </div>

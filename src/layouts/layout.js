@@ -92,7 +92,7 @@ const RootLayout = ({ children }) => {
                                         e.preventDefault();
                                         document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
                                     }}>
-                                        Contact
+                                        Contact Us
                                     </Link>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ const RootLayout = ({ children }) => {
                             document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
                             setShowMenu(false);
                         }}>
-                            Contact
+                            Contact Us
                         </Link>
                         </div>
                     </div>

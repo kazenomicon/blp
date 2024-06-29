@@ -18,6 +18,10 @@ const RootLayout = ({ children }) => {
                 <title>BLP | Blinding Lights Project</title>
                 <meta name="description" content="Blinding Lights Project" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:title" content="Blinding Lights Project" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image:url" content="/images/product-01.png" />
+                <meta property="og:description" content="Blinding Lights Project" />
                 <link rel="icon" href="/images/logo-blp-circle.png" />
             </Head>
             <div className={`flex xl:flex-1 flex-col h-screen relative justify-between overflow-hidden cursor-default `}>
@@ -165,13 +169,13 @@ const RootLayout = ({ children }) => {
                     </div>
                     <div className='flex justify-center text-white text-2xl my-5 '>
                         <div className="h-14 px-4 w-64 rounded-full border border-white content-center">
-                        <Link href="/#contact" onClick={(e) => {
-                            e.preventDefault();
-                            document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-                            setShowMenu(false);
-                        }}>
-                            Contact Us
-                        </Link>
+                            <Link href="/#contact" onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+                                setShowMenu(false);
+                            }}>
+                                Contact Us
+                            </Link>
                         </div>
                     </div>
                 </div>

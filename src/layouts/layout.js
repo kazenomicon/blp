@@ -24,8 +24,8 @@ const RootLayout = ({ children }) => {
                 <meta property="og:description" content="Blinding Lights Project" />
                 <meta property="og:image" content="https://main.dqdps8txgzkps.amplifyapp.com/_next/image?url=%2Fimages%2Fchristmas_blp.jpg&w=3840&q=75" />
                 <meta property="og:image:type" content="image/jpeg" />
-                <meta property="og:image:width" content="200" />
-                <meta property="og:image:height" content="200" />
+                <meta property="og:image:width" content="500" />
+                <meta property="og:image:height" content="300" />
                 <link rel="icon" href="/images/logo-blp-circle.png" />
             </Head>
             <div className={`flex xl:flex-1 flex-col h-screen relative justify-between overflow-hidden cursor-default `}>

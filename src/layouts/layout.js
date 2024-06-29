@@ -15,7 +15,7 @@ const RootLayout = ({ children }) => {
     return (
         <>
             <Head>
-                <title>BLP</title>
+                <title>BLP | Blinding Lights Project</title>
                 <meta name="description" content="Blinding Lights Project" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/images/logo-blp-circle.png" />

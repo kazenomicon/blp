@@ -40,18 +40,30 @@ const RootLayout = ({ children }) => {
                         <div className={`
                     ${"flex-none flex items-center text-left md:ml-10 sm:ml-5 ml-2 text-xl md:text-[20px] text-[16px]"}
                     ${showMenu ? "invisible" : "visible"}
-                    `}>
-                            <div className="h-14 w-14 mr-4 rounded-full justify-center text-center content-center items-center">
-                                <div>
-                                    <img src="/images/logo-blp-circle.png" className="" />
-                                </div>
+                    `}
+                        >
+                            <div
+                                className="h-14 w-14 mr-4 rounded-full justify-center text-center content-center items-center">
+                                <Link href="/#home" onClick={(e) => {
+                                    e.preventDefault();
+                                    document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+                                }}>
+                                    <div>
+                                        <img src="/images/logo-blp-circle.png" className="" />
+                                    </div>
+                                </Link>
                             </div>
                             <p className={`md:hidden ${scrollY > 0 ? "text-white font-bold" : "font-bold"}`}>
                                 BLP
                             </p>
-                            <p className={`md:flex hidden ${scrollY > 0 ? "text-white font-bold" : "font-bold"}`}>
-                                Blinding Lights Project
-                            </p>
+                            <Link href="/#home" onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+                            }}>
+                                <p className={`md:flex hidden ${scrollY > 0 ? "text-white font-bold" : "font-bold"}`}>
+                                    Blinding Lights Project
+                                </p>
+                            </Link>
                         </div>
                         <div className="flex justify-center md:visible invisible lg:mr-10 mr-4 items-center">
                             <div className={`${scrollY > 0 ? "text-white" : ""} flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>

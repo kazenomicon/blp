@@ -12,7 +12,7 @@ const FirstContent = () => {
                     </p>
                 </div>
             </div>
-            <div className='flex w-auto xl:h-[650px] lg:h-[600px] md:h-[500px] sm:h-[400px] h-[300px] lg:px-[200px] mx-4'>
+            <div className='flex w-auto h-auto mx-4'>
                 <div className='w-full content-center justify-center text-center rounded-about text-white'>
                     <Image
                         src='/images/christmas_blp.jpg'

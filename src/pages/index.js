@@ -26,7 +26,7 @@ export default function Home() {
       <Member />
       <Join />
       <Product />
-      <div id="contact" className="md:h-[400px] w-full bg-white py-10 lg:px-20 md:px-10 px-4">
+      <div id="contact" className="md:h-[420px] w-full bg-white py-10 lg:px-20 md:px-10 px-4">
         <div ref={contactRef} className={`
         ${"flex flex-col justify-between h-full w-full bg-white border-2 border-blue-900 rounded-about transition-all duration-700 ease-in-out"}
         ${isVisible ? "opacoty-100 scale-100" : "opacity-0 scale-0"}
@@ -63,6 +63,14 @@ export default function Home() {
             </div>
             <div className="flex lg:w-4/6 md:w-2/6">
               <div className="w-3/6 flex flex-col pt-10 justify-center text-center content-center items-center">
+                <p className="mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" >
+                  <Link href="/#home" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+                  }}>
+                    Home
+                  </Link>
+                </p>
                 <p className="mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" >
                   <Link href="/#about" onClick={(e) => {
                     e.preventDefault();

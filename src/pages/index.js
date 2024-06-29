@@ -80,19 +80,19 @@ export default function Home() {
                   </Link>
                 </p>
                 <p className="mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5">
-                  <Link href="/#product" onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById("product").scrollIntoView({ behavior: "smooth" });
-                  }}>
-                    Products
-                  </Link>
-                </p>
-                <p className="mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5">
                   <Link href="/#join" onClick={(e) => {
                     e.preventDefault();
                     document.getElementById("join").scrollIntoView({ behavior: "smooth" });
                   }}>
                     Join
+                  </Link>
+                </p>
+                <p className="mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5">
+                  <Link href="/#product" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("product").scrollIntoView({ behavior: "smooth" });
+                  }}>
+                    Products
                   </Link>
                 </p>
               </div>

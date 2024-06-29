@@ -79,19 +79,19 @@ const RootLayout = ({ children }) => {
                                 </Link>
                             </div>
                             <div className={`${scrollY > 0 ? "text-white" : ""} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
-                                <Link href="/#product" onClick={(e) => {
-                                    e.preventDefault();
-                                    document.getElementById("product").scrollIntoView({ behavior: "smooth" });
-                                }}>
-                                    Products
-                                </Link>
-                            </div>
-                            <div className={`${scrollY > 0 ? "text-white" : ""} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <Link href="/#join" onClick={(e) => {
                                     e.preventDefault();
                                     document.getElementById("join").scrollIntoView({ behavior: "smooth" });
                                 }}>
                                     Join
+                                </Link>
+                            </div>
+                            <div className={`${scrollY > 0 ? "text-white" : ""} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                                <Link href="/#product" onClick={(e) => {
+                                    e.preventDefault();
+                                    document.getElementById("product").scrollIntoView({ behavior: "smooth" });
+                                }}>
+                                    Products
                                 </Link>
                             </div>
                             <div className={`${scrollY > 0 ? "text-white" : ""} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
@@ -154,21 +154,21 @@ const RootLayout = ({ children }) => {
                         </Link>
                     </div>
                     <div className="text-white text-2xl my-5">
-                        <Link href="/#product" onClick={(e) => {
-                            e.preventDefault();
-                            document.getElementById("product").scrollIntoView({ behavior: "smooth" });
-                            setShowMenu(false);
-                        }}>
-                            Products
-                        </Link>
-                    </div>
-                    <div className="text-white text-2xl my-5">
                         <Link href="/#join" onClick={(e) => {
                             e.preventDefault();
                             document.getElementById("join").scrollIntoView({ behavior: "smooth" });
                             setShowMenu(false);
                         }}>
                             Join
+                        </Link>
+                    </div>
+                    <div className="text-white text-2xl my-5">
+                        <Link href="/#product" onClick={(e) => {
+                            e.preventDefault();
+                            document.getElementById("product").scrollIntoView({ behavior: "smooth" });
+                            setShowMenu(false);
+                        }}>
+                            Products
                         </Link>
                     </div>
                     <div className='flex justify-center text-white text-2xl my-5 '>

@@ -20,7 +20,7 @@ const RootLayout = ({ children }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta property="og:title" content="Blinding Lights Project" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image:url" content="/images/product-01.png" />
+                <meta property="og:image:url" content="https://main.dqdps8txgzkps.amplifyapp.com/_next/image?url=%2Fimages%2Fchristmas_blp.jpg&w=3840&q=75" />
                 <meta property="og:description" content="Blinding Lights Project" />
                 <link rel="icon" href="/images/logo-blp-circle.png" />
             </Head>

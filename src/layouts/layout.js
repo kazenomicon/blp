@@ -30,7 +30,7 @@ const RootLayout = ({ children }) => {
             </Head>
             <div className={`flex xl:flex-1 flex-col h-screen relative justify-between overflow-hidden cursor-default `}>
                 <div className={`
-                ${"w-screen h-20 flex h-20 z-40 absolute"} 
+                ${"w-screen flex h-16 z-40 absolute"} 
                 ${!showMenu ? "bg-gradient-to-r from-blue-900 to-slate-900" : ""}
                 `}>
                     <div className={`
@@ -41,7 +41,7 @@ const RootLayout = ({ children }) => {
                     ${"flex-none flex items-center text-left md:ml-10 sm:ml-5 ml-2 text-xl md:text-[20px] text-[16px]"}
                     ${showMenu ? "invisible" : "visible"}
                     `}>
-                            <div className="h-16 w-16 mr-4 rounded-full justify-center text-center content-center items-center">
+                            <div className="h-14 w-14 mr-4 rounded-full justify-center text-center content-center items-center">
                                 <div>
                                     <img src="/images/logo-blp-circle.png" className="" />
                                 </div>

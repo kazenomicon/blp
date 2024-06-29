@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Product = () => {
 
     return (
-        <div className='pt-20 justify-center text-center bg-black xl:h-[1000px] md:h-[800px] sm:h-[650px] h-[500px]' id="product" >
+        <div className='pt-20 justify-center text-center bg-black ' id="product" >
             <div className='md:h-[75px] h-[50px] justify-center text-center'>
                 <p className='text-[36px] font-bold text-white'>
                     PRODUCTS

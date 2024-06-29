@@ -43,10 +43,10 @@ const Member = () => {
                         OCEAN BLUE
                     </p>
                     <p className="text-slate-500 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
-                        1
-                        <a className='absolute -translate-y-1 text-[12px]'>st</a>
+                        0
+                        <a className='absolute -translate-y-1 text-[12px]'>th</a>
                         <a className='ml-4'>
-                            First Class
+                            Absolute Zero
                         </a>
                     </p>
                 </div>

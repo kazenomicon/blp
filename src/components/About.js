@@ -14,9 +14,9 @@ const About = () => {
                 ${isIsVisible ? "scale-100 opacity-100" : "scale-0 opacity-0"}
                 `}>
                     <p className="lg:text-[28px] md:text-[20px] sm:text-[16px] text-[14px] subpixel-antialiased">
-                        <span className="text-gray-400">About Blinding Lights Project </span> computing infrastructure platform that revolutionizes the ownership, distribution,
-                        and utilization paradigms of enterprise-grade graphical processing units (GPUs).<span className="text-gray-400"> We make it easier
-                            for GPU infrastructure providers to scale, and simpler for buyers to access GPU, worldwide.</span>
+                        <span className="text-gray-400">About Blinding Lights Project </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        <span className="text-gray-400"> Blinding Lights Project.</span>
                     </p>
                 </div>
             </div>

@@ -12,8 +12,8 @@ const FirstContent = () => {
                     </p>
                 </div>
             </div>
-            <div className='flex w-auto h-auto mx-4'>
-                <div className='w-full content-center justify-center text-center rounded-about text-white'>
+            <div className='flex justify-center w-auto h-auto mx-4'>
+                <div className='xl:w-[1200px] lg:w-[1000px] w-full content-center text-center rounded-about text-white'>
                     <Image
                         src='/images/christmas_blp.jpg'
                         alt='blp-main-image'

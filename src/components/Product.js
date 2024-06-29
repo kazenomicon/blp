@@ -15,8 +15,8 @@ const Product = () => {
                 </p>
             </div>
             <div className={`${'w-full pb-10 pt-10 flex justify-center'}`} >
-                <div className='flex w-auto h-auto xl:mx-20 lg:mx-16 md:mx-12 sm:mx-8 mx-4'>
-                    <div className='w-full content-center justify-center text-center rounded-about text-white'>
+                <div className='flex justify-center h-auto xl:mx-20 lg:mx-16 md:mx-12 sm:mx-8 mx-4'>
+                    <div className='xl:w-[1200px] lg:w-[1000px] w-full content-center justify-center text-center rounded-about text-white'>
                         <Image
                             src='/images/product-01.jpeg'
                             alt='blp-main-image'

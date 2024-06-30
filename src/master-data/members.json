@@ -1,0 +1,25 @@
+{
+    "AquaMarinia": {
+        "id": 1,
+        "name": "AquaMarinia",
+        "youtube": "https://www.youtube.com/@AquaMarinia_BLP",
+        "twitter": "https://twitter.com/AquaMarinia_BLP",
+        "twitch": "https://www.twitch.tv/aquamarinia",
+        "colors": "bg-gradient-to-r from-blue-700 to-sky-400"
+    },
+    "Milyni_Tivona": {
+        "id": 2,
+        "name": "Milyni Tivona",
+        "youtube": "https://www.youtube.com/@MilyniTivona_BLP",
+        "twitter": "https://twitter.com/Milyni_Tivona",
+        "twitch": "https://www.twitch.tv/milynitivona",
+        "colors": "bg-gradient-to-r from-lime-700 to-green-400"
+    },
+    "Lafka_Balea": {
+        "id": 3,
+        "name": "Lafka Balea",
+        "youtube": "https://www.youtube.com/@lafkabalea_blp",
+        "twitter": "https://x.com/LafkaBalea",
+        "colors": "bg-gradient-to-r from-violet-700 to-purple-400"
+    }
+}

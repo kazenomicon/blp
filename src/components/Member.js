@@ -75,8 +75,10 @@ const Member = () => {
                         <div className={`
                     ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-blue-700 to-sky-400"}
                     `}>
-                            <p className="ml-10 text-4xl text-white subpixel-antialiased">
-                                AquaMarinia
+                            <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-blue-900">
+                                <a href="/members/AquaMarinia">
+                                    AquaMarinia
+                                </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
                                 <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.youtube.com/@AquaMarinia_BLP" target="_blank">
@@ -115,8 +117,10 @@ const Member = () => {
                         <div className={`
                     ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-lime-700 to-green-400 "}
                     `}>
-                            <p className="ml-10 text-4xl text-white subpixel-antialiased">
-                                Milyni Tivona
+                            <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-green-900">
+                                <a href="/members/Milyni_Tivona">
+                                    Milyni Tivona
+                                </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
                                 <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.youtube.com/@MilyniTivona_BLP" target="_blank">
@@ -155,8 +159,10 @@ const Member = () => {
                         <div className={`
                     ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-violet-700 to-purple-400"}
                     `}>
-                            <p className="ml-10 text-4xl text-white subpixel-antialiased">
+                            <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-purple-900">
+                                <a href="/members/Lafka_Balea">
                                 Lafka Balea
+                                </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
                                 <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.youtube.com/@lafkabalea_blp" target="_blank">

@@ -33,7 +33,7 @@ export default function Home() {
         `}>
           <div className="flex md:flex-row flex-col h-auto w-full">
             <div className="flex flex-col lg:w-2/6 md:w-4/6">
-              <div className="flex mt-10 ml-10 content-center items-center">
+              <div className="flex mt-10 md:ml-10 mx-8 content-center items-center">
                 <div className="h-16 w-16 rounded-full justify-center text-center content-center items-center">
                   <div>
                     <img src="/images/logo-blp-png.png" className="" />

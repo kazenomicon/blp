@@ -81,15 +81,21 @@ const Member = () => {
                                 </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.youtube.com/@AquaMarinia_BLP" target="_blank">
-                                    <FaYoutube className="mr-2" />Youtube
-                                </a>
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://twitter.com/AquaMariniaVT" target="_blank">
-                                    <FaXTwitter className="mr-2" />Twitter
-                                </a>
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.twitch.tv/aquamarinia" target="_blank">
-                                    <FaTwitch className="mr-2" />Twitch
-                                </a>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="https://www.youtube.com/@AquaMarinia_BLP" target="_blank">
+                                        <FaYoutube className="mr-2" />Youtube
+                                    </a>
+                                </div>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="https://twitter.com/AquaMariniaVT" target="_blank">
+                                        <FaXTwitter className="mr-2" />Twitter
+                                    </a>
+                                </div>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
+                                    <a className='flex items-center' href="https://www.twitch.tv/aquamarinia" target="_blank">
+                                        <FaTwitch className="mr-2" />Twitch
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,15 +129,21 @@ const Member = () => {
                                 </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.youtube.com/@MilyniTivona_BLP" target="_blank">
-                                    <FaYoutube className="mr-2" />Youtube
-                                </a>
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://twitter.com/Milyni_Tivona" target="_blank">
-                                    <FaXTwitter className="mr-2" />Twitter
-                                </a>
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.twitch.tv/milynitivona" target="_blank">
-                                    <FaTwitch className="mr-2" />Twitch
-                                </a>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="https://www.youtube.com/@MilyniTivona_BLP" target="_blank">
+                                        <FaYoutube className="mr-2" />Youtube
+                                    </a>
+                                </div>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="https://twitter.com/Milyni_Tivona" target="_blank">
+                                        <FaXTwitter className="mr-2" />Twitter
+                                    </a>
+                                </div>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
+                                    <a className='flex items-center' href="https://www.twitch.tv/milynitivona" target="_blank">
+                                        <FaTwitch className="mr-2" />Twitch
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -165,12 +177,21 @@ const Member = () => {
                                 </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://www.youtube.com/@lafkabalea_blp" target="_blank">
-                                    <FaYoutube className="mr-2" />Youtube
-                                </a>
-                                <a className="flex items-center mt-4 cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5" href="https://x.com/LafkaBalea" target="_blank">
-                                    <FaXTwitter className="mr-2" />Twitter
-                                </a>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="https://www.youtube.com/@lafkabalea_blp" target="_blank">
+                                        <FaYoutube className="mr-2" />Youtube
+                                    </a>
+                                </div>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="https://x.com/LafkaBalea" target="_blank">
+                                        <FaXTwitter className="mr-2" />Twitter
+                                    </a>
+                                </div>
+                                {/* <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
+                                    <a className='flex items-center' href="https://www.twitch.tv/milynitivona" target="_blank">
+                                        <FaTwitch className="mr-2" />Twitch
+                                    </a>
+                                </div> */}
                             </div>
                         </div>
                     </div>

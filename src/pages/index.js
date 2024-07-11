@@ -7,6 +7,7 @@ import About from "@/components/About";
 import Member from "@/components/Member";
 import Join from "@/components/Join";
 import Product from "@/components/Product";
+import Tweets from "@/components/Tweets";
 import { FaDiscord, FaYoutube } from "react-icons/fa";
 import { FaXTwitter, FaTelegram } from "react-icons/fa6";
 import Link from "next/link";
@@ -26,6 +27,7 @@ export default function Home() {
       <Member />
       <Join />
       <Product />
+      <Tweets twitterId="1440730000000000000" />
       <div id="contact" className="md:h-[420px] w-full bg-white py-10 lg:px-20 md:px-10 px-4">
         <div ref={contactRef} className={`
         ${"flex flex-col justify-between h-full w-full bg-white border-2 border-blue-900 rounded-about transition-all duration-700 ease-in-out"}

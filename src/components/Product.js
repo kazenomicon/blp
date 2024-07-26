@@ -5,8 +5,8 @@ import Image from 'next/image';
 const Product = () => {
     const [imageIndex, setImageIndex] = useState(0);
     const imageList = [
-        "/images/product-01.jpeg",
-        "/images/Graphic_VP.png",
+        { image: "/images/product-01.jpeg", link: "" },
+        { image: "/images/Graphic_VP.png", link: "https://t.co/UmXflFCrcS" },
     ];
 
     useEffect(() => {
@@ -38,14 +38,20 @@ const Product = () => {
                 <div className='flex justify-center h-auto xl:mx-20 lg:mx-16 md:mx-12 sm:mx-8 mx-4'>
                     <div className='flex xl:w-[1200px] lg:w-[1000px] w-full content-center justify-center text-center rounded-about text-white'>
                         {
-                            imageList.map((image, index) => {
+                            imageList.map((item, index) => {
                                 return (
                                     <Image
                                         key={index}
-                                        src={image}
+                                        src={item.image}
+                                        onClick={() => {
+                                            if (item.link !== '') {
+                                                window.open(item.link, '_blank')
+                                            }
+                                        }}
                                         className={`
                                         ${'transition ease-in duration-300 object-contain md:min-h-[600px] md:max-h-[600px] min-h-[275px] max-h-[275px]'}
                                         ${index === imageIndex ? 'opacity-100' : 'opacity-0 hidden'}
+                                        ${item.link !== '' ? 'cursor-pointer' : 'cursor-default'}
                                         `}
                                         alt='blp-main-image'
                                         width={0}

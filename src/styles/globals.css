@@ -2,23 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-.image-wrapper {
+.image-wrapper-aqua {
     position: relative;
     display: inline-block;
   }
   
-  .image-wrapper img {
+  .image-wrapper-aqua img {
     display: block;
   }
   
-  .image-wrapper::before {
+  .image-wrapper-aqua::before {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     height: 50%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(17, 24, 39) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(30, 58, 138) 100%);
+    pointer-events: none;
+    /* Prevents blocking mouse events */
+  }
+
+  .image-wrapper-milyni {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-wrapper-milyni img {
+    display: block;
+  }
+  
+  .image-wrapper-milyni::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(20, 83, 45) 100%);
     pointer-events: none;
     /* Prevents blocking mouse events */
   }

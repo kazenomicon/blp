@@ -54,15 +54,15 @@ const Member = () => {
             </div>
             <div className="flex lg:flex-row flex-col justify-center items-center">
                 <div ref={step1Ref} className={`
-                ${"h-[500px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
+                ${"h-[500px] w-[350px] bg-blue-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
                 ${step1Visible ? "scale-100" : "scale-0"}
                 `}>
                     <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
                         <div className={`
                     ${"w-full h-[490px] relative "}
                     `}>
-                            <div className="image-wrapper flex-1 h-4/6 content-center text-center justify-center items-center text-white overflow-hidden p-4">
-                                <div class="">
+                            <div className="flex image-wrapper-aqua h-4/6 w-full text-white overflow-hidden p-4">
+                                <div className='flex justify-center'>
                                     <Image
                                         src="/images/aquamarinia/aquamarinia_01.png"
                                         className={`object-contain`}
@@ -110,15 +110,23 @@ const Member = () => {
                     </div>
                 </div>
                 <div ref={step2Ref} className={`
-                ${"h-[500px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300 lg:delay-150"}
+                ${"h-[500px] w-[350px] bg-green-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300 lg:delay-150"}
                 ${step2Visible ? "scale-100" : "scale-0"}
                 `}>
                     <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
                         <div className={`
                     ${"w-full h-[490px] relative "}
                     `}>
-                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
-                                IMAGE
+                            <div className="flex image-wrapper-milyni h-4/6 w-full text-white overflow-hidden p-4">
+                                <div className='flex justify-center'>
+                                    <Image
+                                        src="/images/milyni/milyni_01.png"
+                                        className={``}
+                                        alt="Picture of the author"
+                                        width={250}
+                                        height={250}
+                                    />
+                                </div>
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">

@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useIsVisible } from './useIsVisible';
 import { FaTwitch, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Image from 'next/image';
 
 const Member = () => {
     const [mourseIn, setMouseIn] = useState(false);
@@ -60,8 +61,16 @@ const Member = () => {
                         <div className={`
                     ${"w-full h-[490px] relative "}
                     `}>
-                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
-                                IMAGE
+                            <div className="image-wrapper flex-1 h-4/6 content-center text-center justify-center items-center text-white overflow-hidden p-4">
+                                <div class="">
+                                    <Image
+                                        src="/images/aquamarinia/aquamarinia_01.png"
+                                        className={`object-contain`}
+                                        alt="Picture of the author"
+                                        width={500}
+                                        height={500}
+                                    />
+                                </div>
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">

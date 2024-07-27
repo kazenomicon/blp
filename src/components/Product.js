@@ -40,26 +40,28 @@ const Product = () => {
                         {
                             imageList.map((item, index) => {
                                 return (
-                                    <Image
-                                        key={index}
-                                        src={item.image}
-                                        onClick={() => {
-                                            if (item.link !== '') {
-                                                window.open(item.link, '_blank')
-                                            }
-                                        }}
-                                        className={`
+                                    <div>
+                                        <Image
+                                            key={index}
+                                            src={item.image}
+                                            onClick={() => {
+                                                if (item.link !== '') {
+                                                    window.open(item.link, '_blank')
+                                                }
+                                            }}
+                                            className={`
                                         ${'transition ease-in duration-300 object-contain md:min-h-[600px] md:max-h-[600px] min-h-[275px] max-h-[275px]'}
                                         ${index === imageIndex ? 'opacity-100' : 'opacity-0 hidden'}
                                         ${item.link !== '' ? 'cursor-pointer' : 'cursor-default'}
                                         `}
-                                        alt='blp-main-image'
-                                        width={0}
-                                        height={0}
-                                        loading="lazy"
-                                        sizes="100vw"
-                                        style={{ width: 'auto', height: 'auto' }}
-                                    />
+                                            alt='blp-main-image'
+                                            width={0}
+                                            height={0}
+                                            loading="lazy"
+                                            sizes="100vw"
+                                            style={{ width: 'auto', height: 'auto' }}
+                                        />
+                                    </div>
                                 );
                             })
                         }

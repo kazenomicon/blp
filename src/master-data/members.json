@@ -20,6 +20,31 @@
         "name": "Lafka Balea",
         "youtube": "https://www.youtube.com/@lafkabalea_blp",
         "twitter": "https://x.com/LafkaBalea",
+        "twitch": "#",
         "colors": "bg-gradient-to-r from-violet-700 to-purple-400"
+    },
+    "ZellaqNOPE":{
+        "id": 4,
+        "name": "ZellaqNOPE",
+        "youtube": "#",
+        "twitter": "#",
+        "twitch": "#",
+        "colors": "bg-gradient-to-r from-teal-700 to-teal-200"
+    },
+    "Loretta_Jose":{
+        "id": 5,
+        "name": "Loretta José",
+        "youtube": "https://www.youtube.com/@Loretzslowly",
+        "twitter": "https://x.com/Loretzslowly",
+        "twitch": "https://www.twitch.tv/loretzslowly",
+        "colors": "bg-gradient-to-r from-rose-600 to-rose-300"
+    },
+    "Delta_Alizella":{
+        "id": 6,
+        "name": "Delta Alizella",
+        "youtube": "https://www.youtube.com/@DELTA_ALIZELLA",
+        "twitter": "https://x.com/Delta_Alizella",
+        "twitch": "#",
+        "colors": "bg-gradient-to-r from-indigo-700 to-pink-500"
     }
 }

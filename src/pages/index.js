@@ -5,6 +5,7 @@ import FirstContent from "@/components/FirstContent";
 import { useRef } from "react";
 import About from "@/components/About";
 import Member from "@/components/Member";
+import Member_1 from "@/components/Member_1";
 import Join from "@/components/Join";
 import Product from "@/components/Product";
 import Tweets from "@/components/Tweets";
@@ -25,6 +26,7 @@ export default function Home() {
       <FirstContent />
       <About />
       <Member />
+      <Member_1 />
       <Join />
       <Product />
       <Tweets twitterId="1440730000000000000" />

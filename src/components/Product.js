@@ -9,19 +9,19 @@ const Product = () => {
         { image: "/images/Graphic_VP.png", link: "https://t.co/UmXflFCrcS" },
     ];
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setImageIndex((prevIndex) => {
-                if (prevIndex === imageList.length - 1) {
-                    return 0;
-                } else {
-                    return prevIndex + 1;
-                }
-            });
-        }, 10000);
-        return () => clearInterval(interval);
-    }
-        , []);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setImageIndex((prevIndex) => {
+    //             if (prevIndex === imageList.length - 1) {
+    //                 return 0;
+    //             } else {
+    //                 return prevIndex + 1;
+    //             }
+    //         });
+    //     }, 10000);
+    //     return () => clearInterval(interval);
+    // }
+    //     , []);
 
 
     return (

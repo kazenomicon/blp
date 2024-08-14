@@ -19,6 +19,8 @@ const Member = () => {
     const step2Visible = useIsVisible(step2Ref);
     const step3Ref = useRef();
     const step3Visible = useIsVisible(step3Ref);
+    const step4Ref = useRef();
+    const step4Visible = useIsVisible(step4Ref);
 
     return (
         <div id="member" className="lg:h-[1000px] h-auto lg:pb-0 pb-10 w-full bg-black">
@@ -201,6 +203,54 @@ const Member = () => {
                                 </div>
                                 <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
                                     <a className='flex items-center' href="https://x.com/LafkaBalea" target="_blank">
+                                        <FaXTwitter className="mr-2" />Twitter
+                                    </a>
+                                </div>
+                                {/* <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
+                                    <a className='flex items-center' href="https://www.twitch.tv/milynitivona" target="_blank">
+                                        <FaTwitch className="mr-2" />Twitch
+                                    </a>
+                                </div> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ref={step4Ref} className={`
+                ${"h-[500px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300 lg:delay-300"}
+                ${step4Visible ? "scale-100" : "scale-0"}
+                `} >
+                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
+                        <div className={`
+                    ${"w-full h-[490px] relative "} 
+                    `}>
+                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
+                                IMAGE
+                            </div>
+                            <div className="flex-1 h-2/6">
+                                <p className="ml-10 text-4xl text-white subpixel-antialiased">
+                                    ZellaqNOPE
+                                </p>
+                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                    The ESports Player
+                                </p>
+                            </div>
+                        </div>
+                        <div className={`
+                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-teal-700 to-teal-200"}
+                    `}>
+                            <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-emerald-900">
+                                <a href="/members/ZellaqNOPE">
+                                    ZellaqNOPE
+                                </a>
+                            </p>
+                            <div className="ml-10 text-white mt-10 mr-10">
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="#" target="_blank">
+                                        <FaYoutube className="mr-2" />Youtube
+                                    </a>
+                                </div>
+                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
+                                    <a className='flex items-center' href="#" target="_blank">
                                         <FaXTwitter className="mr-2" />Twitter
                                     </a>
                                 </div>

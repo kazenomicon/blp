@@ -41,22 +41,30 @@ const Member = () => {
             </div>
             <div className="flex lg:flex-row flex-col justify-center items-center">
                 <div ref={step1Ref} className={`
-                ${"h-[500px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
+                ${"h-[500px] w-[350px] bg-rose-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
                 ${step1Visible ? "scale-100" : "scale-0"}
                 `}>
                     <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
                         <div className={`
                     ${"w-full h-[490px] relative "}
                     `}>
-                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
-                                IMAGE
+                            <div className="flex image-wrapper-loretta h-4/6 w-full text-white overflow-hidden p-4">
+                                <div className='flex justify-center'>
+                                    <Image
+                                        src="/images/loretta/loretta_01.png"
+                                        className={`object-contain`}
+                                        alt="Picture of the author"
+                                        width={500}
+                                        height={500}
+                                    />
+                                </div>
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Loretta José
                                 </p>
                                 <p className="text-slate-500 ml-10 mt-4 mr-10">
-                                    The cutest Wolpertinger
+                                    The Cutest Wolpertinger
                                 </p>
                             </div>
                         </div>

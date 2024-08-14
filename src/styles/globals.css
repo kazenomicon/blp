@@ -43,3 +43,24 @@
     pointer-events: none;
     /* Prevents blocking mouse events */
   }
+
+  .image-wrapper-loretta {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-wrapper-loretta img {
+    display: block;
+  }
+  
+  .image-wrapper-loretta::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(136, 19, 55) 100%);
+    pointer-events: none;
+    /* Prevents blocking mouse events */
+  }

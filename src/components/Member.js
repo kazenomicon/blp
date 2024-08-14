@@ -228,29 +228,29 @@ const Member = () => {
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
-                                    ZellaqNOPE
+                                    Anorz Mystrosia
                                 </p>
                                 <p className="text-slate-500 ml-10 mt-4 mr-10">
-                                    The ESports Player
+                                    Green Wizard, The magic shop owner at the fog swamp
                                 </p>
                             </div>
                         </div>
                         <div className={`
-                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-teal-700 to-teal-200"}
+                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-teal-700 to-red-700"}
                     `}>
                             <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-emerald-900">
-                                <a href="/members/ZellaqNOPE">
-                                    ZellaqNOPE
+                                <a href="/members/Anorz_Mystrosia">
+                                    Anorz Mystrosia
                                 </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
                                 <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
-                                    <a className='flex items-center' href="#" target="_blank">
+                                    <a className='flex items-center' href="https://www.youtube.com/@AnorzMystrosia_BLP" target="_blank">
                                         <FaYoutube className="mr-2" />Youtube
                                     </a>
                                 </div>
                                 <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
-                                    <a className='flex items-center' href="#" target="_blank">
+                                    <a className='flex items-center' href="https://x.com/AnorzMystrosia" target="_blank">
                                         <FaXTwitter className="mr-2" />Twitter
                                     </a>
                                 </div>

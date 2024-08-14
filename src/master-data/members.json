@@ -23,13 +23,13 @@
         "twitch": "#",
         "colors": "bg-gradient-to-r from-violet-700 to-purple-400"
     },
-    "ZellaqNOPE":{
+    "Anorz_Mystrosia":{
         "id": 4,
-        "name": "ZellaqNOPE",
-        "youtube": "#",
-        "twitter": "#",
+        "name": "Anorz Mystrosia",
+        "youtube": "https://www.youtube.com/@AnorzMystrosia_BLP",
+        "twitter": "https://x.com/AnorzMystrosia",
         "twitch": "#",
-        "colors": "bg-gradient-to-r from-teal-700 to-teal-200"
+        "colors": "bg-gradient-to-r from-teal-700 to-red-700"
     },
     "Loretta_Jose":{
         "id": 5,

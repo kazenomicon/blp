@@ -231,7 +231,7 @@ const Member = () => {
                                     Anorz Mystrosia
                                 </p>
                                 <p className="text-slate-500 ml-10 mt-4 mr-10">
-                                    Green Wizard, The magic shop owner at the fog swamp
+                                    Green Wizard, The magic shop owner at the misty swamp
                                 </p>
                             </div>
                         </div>

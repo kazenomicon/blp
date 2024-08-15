@@ -28,13 +28,13 @@ const Member = () => {
             `}>
                 <div className="py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center flex-col lg:h-[150px] md:h-[140px] sm:h-[125px] h-[100px] lg:w-[1000px] md:w-[800px] w-auto ">
                     <p className="lg:text-[32px] md:text-[28px] text-[24px] font-bold subpixel-antialiased text-white">
-                        LOREM IPSUM
+                        CELESTIAL ERA
                     </p>
-                    <p className="text-slate-500 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
+                    <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
                         1
                         <a className='absolute -translate-y-1 text-[12px]'>st</a>
                         <a className='ml-4'>
-                            ONE
+                            Number One
                         </a>
                     </p>
                 </div>
@@ -63,7 +63,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Loretta José
                                 </p>
-                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     The Cutest Wolpertinger
                                 </p>
                             </div>
@@ -111,7 +111,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Delta Alizella
                                 </p>
-                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     The Greatest Whale eat Galaxy
                                 </p>
                             </div>

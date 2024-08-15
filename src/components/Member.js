@@ -32,7 +32,7 @@ const Member = () => {
                     <p className="lg:text-[36px] md:text-[32px] text-[28px] font-bold subpixel-antialiased text-white">
                         MEMBERS
                     </p>
-                    <p className="text-slate-500 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
+                    <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
                         Blinding Lights Project
                     </p>
                 </div>
@@ -45,7 +45,7 @@ const Member = () => {
                     <p className="lg:text-[32px] md:text-[28px] text-[24px] font-bold subpixel-antialiased text-white">
                         OCEAN BLUE
                     </p>
-                    <p className="text-slate-500 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
+                    <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
                         0
                         <a className='absolute -translate-y-1 text-[12px]'>th</a>
                         <a className='ml-4'>
@@ -78,7 +78,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     AquaMarinia
                                 </p>
-                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     Spirit of the Ocean, Protector of the Sea
                                 </p>
                             </div>
@@ -134,7 +134,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Milyni Tivona
                                 </p>
-                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     Mail girl from a magical world!!
                                 </p>
                             </div>
@@ -182,7 +182,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Lafka Balea
                                 </p>
-                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     A Pirate Captain who believe in freedom and kindness
                                 </p>
                             </div>
@@ -230,7 +230,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Anorz Mystrosia
                                 </p>
-                                <p className="text-slate-500 ml-10 mt-4 mr-10">
+                                <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     Green Wizard, The magic shop owner at the misty swamp
                                 </p>
                             </div>
